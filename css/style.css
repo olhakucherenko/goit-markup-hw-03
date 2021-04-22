@@ -220,7 +220,7 @@ body {
   padding-bottom: 32px;
 }
 
-/*==============================================================================*/
+/*=============================================================================================================*/
 h1,
 h2,
 h3,
@@ -250,7 +250,7 @@ img {
   text-decoration: none;
 }
 
-/*-------FLEX HEADER------*/
+/*=======================================================FLEX HEADER=========================================*/
 .container {
   width: 1200px;
   padding: 0 15px;
@@ -272,9 +272,6 @@ img {
 .header .navigation {
   display: flex;
 }
-/*.top-header {
-  margin-bottom: 94px;
-}*/
 .navigation .logo {
   margin-top: 25px;
   margin-bottom: 24px;
@@ -340,9 +337,9 @@ img {
 .card-set {
   margin-bottom: 94px;
 }
-/*---------SOLUTIONS END-------*/
+/*==================================SOLUTIONS END======================================*/
 
-/*---------GALLERY------------*/
+/*===================================GALLERY==========================================*/
 ul {
   list-style-type: none;
 }
@@ -353,14 +350,13 @@ ul {
   margin-bottom: 94px;
 }
 
-/*------OUR TEAM-----*/
+/*========================================OUR TEAM======================================*/
 .second-header-header {
   text-align: center;
   padding-top: 94px;
 }
 .our-team-members .container {
-  left: 0;
-  width: 100%;
+  width: 1200px;
 }
 .team-members {
   display: flex;
@@ -403,11 +399,14 @@ ul {
 .id-buttons {
   display: flex;
   margin-bottom: 50px;
-}
+} /*---------------------------------------------------------------------------------------------*/
 .id-btn {
   display: flex;
   margin-right: 8px;
   justify-content: center;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 .portfolio-first-part {
   display: flex;
@@ -427,10 +426,3 @@ ul {
   justify-content: space-between;
   margin-bottom: 94px;
 }
-/*.third-header {
-  margin-top: 20px;
-  margin-bottom: 4px;
-  padding-right: 24px;
-  padding-left: 24px;
-}
-*/
